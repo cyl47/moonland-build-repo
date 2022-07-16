@@ -24,7 +24,17 @@
         ]
       },
       {
-        "source":"/Build/unity.framework.js",
+        "source":"Build/unity.framework.js",
+        "headers":
+        [
+          {
+            "key":"Content-Encoding",
+            "value":"gzip"
+          }
+        ]
+      },
+      {
+        "source":"Build/unity.wasm",
         "headers":
         [
           {
