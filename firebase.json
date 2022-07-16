@@ -14,17 +14,7 @@
     ],
     "headers": [ 
       {
-        "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
-        "headers": 
-        [ 
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      },
-      {
-        "source":"*/Build/unity.framework.js.gz",
+        "source":"**/*.gz",
         "headers":
         [
           {
@@ -34,12 +24,12 @@
         ]
       },
       {
-        "source":"*/Build/unity.wasm.gz",
+        "source":"**/*.br",
         "headers":
         [
           {
             "key":"Content-Encoding",
-            "value":"gzip"
+            "value":"br"
           }
         ]
       }
