@@ -20,13 +20,19 @@
           {
             "key": "Access-Control-Allow-Origin",
             "value": "*"
-          },
-          {
-            "key" : "Content-Type",
-            "value":"application/wasm"
           }
         ]
-      } 
+      },
+      {
+        "source":"/Build/unity.framework.js",
+        "headers":
+        [
+          {
+            "key":"Content-Encoding",
+            "value":"gzip"
+          }
+        ]
+      }
     ]
   }
 }
