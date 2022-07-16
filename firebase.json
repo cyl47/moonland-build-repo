@@ -24,7 +24,7 @@
         ]
       },
       {
-        "source":"Build/unity.framework.js",
+        "source":"*/Build/unity.framework.js",
         "headers":
         [
           {
@@ -34,7 +34,7 @@
         ]
       },
       {
-        "source":"Build/unity.wasm",
+        "source":"*/Build/unity.wasm",
         "headers":
         [
           {
