@@ -10,7 +10,7 @@ body{
 	background-color:#000000;
 }
 
-body *:not(#root) {
+body>*:not(#root) {
 	display: none;
 }
 
