@@ -1,12 +1,9 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LightHandler" preserve="all" />
-    <type fullname="PrefabLightmapData" preserve="all" />
     <type fullname="Property" preserve="all" />
     <type fullname="RoomHandler" preserve="all" />
     <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
-    <type fullname="PrefabLightmapData/LightInfo" preserve="nothing" serialized="true" />
-    <type fullname="PrefabLightmapData/RendererInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="sc.stylizedwater2.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="StylizedWater2.WaterObject" preserve="all" />
