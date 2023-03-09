@@ -1,11 +1,13 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="LightHandler" preserve="all" />
-    <type fullname="PrefabLightmapData" preserve="all" />
+    <type fullname="Property" preserve="all" />
     <type fullname="RoomHandler" preserve="all" />
+    <type fullname="ScreenShareProperty" preserve="all" />
     <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
-    <type fullname="PrefabLightmapData/LightInfo" preserve="nothing" serialized="true" />
-    <type fullname="PrefabLightmapData/RendererInfo" preserve="nothing" serialized="true" />
+    <type fullname="Moonland.RoomData" preserve="nothing" serialized="true" />
+    <type fullname="Moonland.RoomType" preserve="nothing" serialized="true" />
+    <type fullname="Moonland.UserInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="sc.stylizedwater2.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="StylizedWater2.WaterObject" preserve="all" />
@@ -43,6 +45,7 @@
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
@@ -50,5 +53,12 @@
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
   </assembly>
 </linker>
