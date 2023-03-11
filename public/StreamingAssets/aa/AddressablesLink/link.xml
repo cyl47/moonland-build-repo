@@ -4,10 +4,9 @@
     <type fullname="Property" preserve="all" />
     <type fullname="RoomHandler" preserve="all" />
     <type fullname="ScreenShareProperty" preserve="all" />
-    <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
     <type fullname="Moonland.RoomData" preserve="nothing" serialized="true" />
-    <type fullname="Moonland.RoomType" preserve="nothing" serialized="true" />
     <type fullname="Moonland.UserInfo" preserve="nothing" serialized="true" />
+    <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="sc.stylizedwater2.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="StylizedWater2.WaterObject" preserve="all" />
@@ -62,8 +61,5 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
   </assembly>
 </linker>
