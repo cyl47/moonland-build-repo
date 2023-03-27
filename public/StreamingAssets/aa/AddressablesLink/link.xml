@@ -4,6 +4,7 @@
     <type fullname="Property" preserve="all" />
     <type fullname="RoomHandler" preserve="all" />
     <type fullname="ScreenShareProperty" preserve="all" />
+    <type fullname="WallBannerProperty" preserve="all" />
     <type fullname="Moonland.RoomData" preserve="nothing" serialized="true" />
     <type fullname="Moonland.UserInfo" preserve="nothing" serialized="true" />
     <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
