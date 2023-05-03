@@ -3,6 +3,7 @@
     <type fullname="BannerProperty" preserve="all" />
     <type fullname="ChatGPTBillboard" preserve="all" />
     <type fullname="LightHandler" preserve="all" />
+    <type fullname="MarioBox" preserve="all" />
     <type fullname="NPCAIDestination" preserve="all" />
     <type fullname="NPCAINav" preserve="all" />
     <type fullname="NPCAIOrigin" preserve="all" />
