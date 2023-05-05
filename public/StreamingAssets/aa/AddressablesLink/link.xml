@@ -4,9 +4,6 @@
     <type fullname="ChatGPTBillboard" preserve="all" />
     <type fullname="LightHandler" preserve="all" />
     <type fullname="MarioBox" preserve="all" />
-    <type fullname="NPCAIDestination" preserve="all" />
-    <type fullname="NPCAINav" preserve="all" />
-    <type fullname="NPCAIOrigin" preserve="all" />
     <type fullname="Property" preserve="all" />
     <type fullname="RoomHandler" preserve="all" />
     <type fullname="ScreenShareProperty" preserve="all" />
@@ -53,9 +50,6 @@
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
@@ -85,7 +79,6 @@
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
-    <type fullname="UnityEngine.Rigidbody" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
