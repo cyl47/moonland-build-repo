@@ -21,3 +21,4 @@ jobs:
           channelId: live
           projectId: moonland-f0164
           target: moonland-f0164
+          config: Prod-ENV/firebase.json
