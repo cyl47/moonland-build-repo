@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "moonland-f0164",
-      "public": "./public",
+      "public": "../public",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -17,7 +17,7 @@
     },
     {
       "target": "moonland-test",
-      "public": "./public",
+      "public": "../public",
       "ignore": [
         "firebase.json",
         "**/.*",
