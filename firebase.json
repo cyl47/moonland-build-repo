@@ -16,21 +16,6 @@
       ]
     },
     {
-      "target": "moonland-frontend",
-      "public": "public",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    },
-    {
       "target": "moonland-f0164",
       "public": "public",
       "ignore": [
@@ -59,6 +44,47 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "target": "moonland-frontend",
+      "public": "public",
+      "headers": [
+        {
+          "source": "/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=3600"
+            }
+          ]
+        }
+      ],
+      "rewrites": [
+        {
+          "source": "**/**",
+          "function": "webserver"
+        }
+      ]
     }
-  ]
+  ],
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs16",
+    "ignore": [
+      "**/.firebase/**",
+      "**/node_modules/**",
+      "**/public/**",
+      ".firebaserc",
+      "firebase.json"
+    ]
+  }
 }
