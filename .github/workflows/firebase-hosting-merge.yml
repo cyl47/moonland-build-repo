@@ -20,4 +20,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOONLAND_F0164 }}'
           channelId: live
           projectId: moonland-f0164
-          target: moonland-f0164
+          target: moonland-test
+          # entryPoint: Prod-ENV
