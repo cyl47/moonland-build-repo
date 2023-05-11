@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "moonland-dev-721a6"
-  }
+  },
+  "targets": {
+    "moonland-dev-721a6": {
+      "hosting": {
+        "moonland-frontend": [
+          "moonland-frontend"
+        ],
+        "moonland-dev-721a6": [
+          "moonland-dev-721a6"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
