@@ -19,3 +19,4 @@ jobs:
           projectId: moonland-dev-721a6
           entryPoint: Dev-ENV
           channelId: live
+          target: moonland-dev-721a6
