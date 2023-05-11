@@ -19,6 +19,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOONLAND_F0164 }}'
           channelId: live
-          projectId: moonland-dev-721a6
-          target: moonland-dev-721a6
+          projectId: moonland-f0164
+          target: moonland-test
           # entryPoint: Prod-ENV
