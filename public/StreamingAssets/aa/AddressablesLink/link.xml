@@ -1,5 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AnimatorDelay" preserve="all" />
+    <type fullname="AvatarRide" preserve="all" />
     <type fullname="BannerProperty" preserve="all" />
     <type fullname="ChatGPTBillboard" preserve="all" />
     <type fullname="LightHandler" preserve="all" />
