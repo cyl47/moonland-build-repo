@@ -16,6 +16,10 @@
     <type fullname="Moonland.UserInfo" preserve="nothing" serialized="true" />
     <type fullname="LightHandler/LightState" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="ReadyPlayerMe.AvatarLoader, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ReadyPlayerMe.AvatarLoader.AvatarData" preserve="all" />
+    <type fullname="ReadyPlayerMe.AvatarLoader.AvatarMetadata" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="sc.stylizedwater2.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="StylizedWater2.WaterObject" preserve="all" />
   </assembly>
